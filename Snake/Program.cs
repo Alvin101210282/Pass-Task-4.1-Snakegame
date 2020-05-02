@@ -134,7 +134,7 @@ namespace Snake
                 gNegativePoints++;
 
                 // Initialize scoreboard
-                int userPoints = (gSnakeElements.Count - 6) * 100 - gNegativePoints;
+                int userPoints = (gSnakeElements.Count - 4) * 100 - gNegativePoints;
                 if (userPoints < 0) userPoints = 0;
                 userPoints = Math.Max(userPoints, 0);
 
